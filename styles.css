@@ -1,16 +1,21 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb (0, 170, 255);
     text-align: center;
+    color: rgb(67, 67, 67);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .main-part {
-    background-color: rgb(240, 247, 247);
+    background-color: white;
     width: 350px;
     margin: 50px auto;
     padding: 30px 0;
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgb(192, 212, 212);
+
+}
+
+.main-part:hover {
+    transform: scale(1.01);
 }
 
 .title-tutorial {
@@ -21,14 +26,57 @@ body {
 .tutorial-summary {
     padding: 10px 10px;
     margin: 0;
+    color: black;
 }
-
-
-
 
 .price {
     background-color: rgb(61, 136, 197);
     padding: 10px;
     font-size: 40px;
-    margin: 10 0px;
+    margin: 10px 0 0 0;
+    color: black;
+}
+
+.tutorial-list {
+    font-size: larger;
+    width: 300px;
+    margin: 0 50px;
+}
+
+.tutorial-info {
+    display: flex;
+}
+
+.tutorial-details {
+    margin: 10px 0 20px 0;
+}
+
+.tutorial-bullet-points {
+    margin: 10px;
+}
+
+.button-buy-it {
+    padding: 10px 90px 10px 90px;
+    margin: 40px;
+    color: rgb(61, 136, 197);
+    font-size: large;
+    font-family: sans-serif;
+    background-color: white;
+    border-color: rgb(61, 136, 197);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out 0.2s;
+}
+
+
+.button-buy-it:hover {
+    background-color: rgb(61, 136, 197);
+    color: aliceblue;
+}
+
+.icons {
+    display: flex;
+    width: 18px;
+    margin-right: 10px;
+
 }
